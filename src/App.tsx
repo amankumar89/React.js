@@ -1,3 +1,4 @@
+import FindUser from "./use-effect/FindUser";
 import Greeting from "./use-effect/Greeting";
 import Colorizer from "./use-state/Colorizer";
 import Counter from "./use-state/Counter";
@@ -12,6 +13,7 @@ const App = () => {
 
       {/* use-effect */}
       {/* <Greeting max={8} /> */}
+      <FindUser />
     </div>
   );
 };
