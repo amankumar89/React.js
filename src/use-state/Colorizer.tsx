@@ -23,7 +23,7 @@ const Colorizer = () => {
       <button
         type="button"
         onClick={handleClick}
-        className="w-96 px-4 text-xl font-medium border border-neutral-400 border-radius-4 cursor-pointer rounded-md"
+        className="w-96 px-4 text-xl font-medium border border-neutral-400 cursor-pointer rounded-md"
       >
         Change Color
       </button>

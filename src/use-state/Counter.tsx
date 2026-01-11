@@ -6,7 +6,7 @@ const Button = ({ title, onClick } : { title: string; onClick: () => void }) => 
 }
 
 const numberLists = [1,2,3,4,5,6,7,8,9,10];
-const randomNum = Math.floor(Math.random() * numberLists.length)
+const randomNum = numberLists[Math.floor(Math.random() * numberLists.length)];
 
 const Counter = () => {
   const [count, setCount] = useState<number>(0);
