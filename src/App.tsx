@@ -7,10 +7,8 @@ const App = () => {
   return (
     <div className="App px-8">
       {/* use-state */}
-
-      {/* <Counter />
-      <Colorizer /> */}
-
+      <Counter />
+      <Colorizer />
       {/* use-effect */}
       {/* <Greeting max={8} /> */}
       <FindUser />
