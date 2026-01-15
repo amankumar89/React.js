@@ -28,7 +28,6 @@ const Greeting = ({ max }) => {
     } else window.localStorage.setItem("jackpot", "false");
 
     const randomGreet = DATA[num];
-    console.log(randomGreet);
 
     setGreetings(randomGreet);
 

@@ -16,7 +16,6 @@ const useGithub = ({ userName }: Props) => {
         const response = await fetch(url);
         const users = await response.json();
         setUser(users);
-        console.log(users);
       } catch (error) {
         setError(true);
         console.error("Error fetching GitHub users:", error);
