@@ -5,10 +5,13 @@ import CounterNew from "./use-ref/CounterNew";
 import Focus from "./use-ref/Focus";
 import Colorizer from "./use-state/Colorizer";
 import Counter from "./use-state/Counter";
+import UserProfileContainer from "./design-patterns/container-presenter/with-pattern/components/profile/UserProfileContainer";
 
 const App = () => {
   return (
     <div className="App px-8">
+      {/* react-design-patterns */}
+      <UserProfileContainer userId={1} />
       {/* hoc */}
       <MovieListHoc />
       {/* use-ref */}
