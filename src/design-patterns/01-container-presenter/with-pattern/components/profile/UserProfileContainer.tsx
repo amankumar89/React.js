@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import UserProfilePresenter from "./UserProfilePresenter";
 import AppLayout from "../../../../../AppLayout";
+import "../../../container-presenter.css";
 
 const mockUser: UserProps = {
   name: "Aman Kumar",

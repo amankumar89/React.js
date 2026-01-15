@@ -5,7 +5,7 @@ import CounterNew from "./use-ref/CounterNew";
 import Focus from "./use-ref/Focus";
 import Colorizer from "./use-state/Colorizer";
 import Counter from "./use-state/Counter";
-import UserProfileContainer from "./design-patterns/container-presenter/with-pattern/components/profile/UserProfileContainer";
+import UserProfileContainer from "./design-patterns/01-container-presenter/with-pattern/components/profile/UserProfileContainer";
 
 const App = () => {
   return (
